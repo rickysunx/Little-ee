@@ -1,0 +1,162 @@
+@CHARSET "UTF-8";
+
+body {
+	margin:0;
+	padding:0;
+	font-size: 14px;
+}
+
+.loginDiv {
+	width:350px;
+	border:1px solid #AAA;
+	margin:10px auto;
+}
+
+.loginTable {
+	
+}
+
+.loginTable tr {
+	height:30px;
+}
+
+.loginTable input[type=text],.loginTable input[type=password] {
+	width:200px;
+	height:15px;
+	font-size:14px;
+	margin-left:10px;
+}
+
+.loginTable input[type=submit] {
+	width:60px;
+	height:25px;
+	font-size:14px;
+	cursor: pointer;
+	margin-left:10px;
+}
+
+.centerDiv {
+	width:960px;
+	margin:0 auto;
+}
+
+.blockDiv {
+	width:960px;
+	margin:0 auto 10px auto;
+}
+
+.adminNav {
+	border:1px solid #999;
+	padding:5px;
+	background-color: #efefef;
+	margin:0 auto 10px auto;
+}
+
+.adminNav a {
+	text-decoration: none;
+	color:#00A;
+}
+
+.adminNav a:hover {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color:#00A;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	padding:5px;
+	border:1px solid #999;
+}
+
+.userBanner {
+	margin: 0 auto 10px auto;
+}
+
+.sectionTitle {
+	font-weight: bold;
+	margin:0 auto 3px auto;
+	width: 960px;
+	
+}
+
+.sectionTitle div {
+	font-weight: bold;
+	margin:0;
+	width: 600px;
+	background-color: #eee;
+	border: 1px solid #999;
+	padding:5px;
+}
+
+.dataTable {
+	border: 1px solid #999;
+	border-collapse:collapse;
+}
+
+.dataTableHeader {
+	background-color:#eee;
+}
+
+.dataPageSelector {
+	margin:0 auto 10px auto;
+}
+
+.dataTable tr td{
+	border-bottom:1px solid #999;
+	border-right:1px solid #999;
+	empty-cells:show;
+	padding:5px;
+}
+
+.imageUpload {
+	display:block;
+	float:left;
+	margin-right:10px;
+}
+
+.imageUpload img {
+	width:100px;
+	display:block;
+}
+
+.imageUpload button {
+	display:block;
+	margin:5px auto 0 auto;
+}
+
+.admin_calendar_title {
+	text-align: center;
+	background-color: #eee;
+}
+
+.admin_calendar {
+	border: 1px solid #333;
+	border-collapse: collapse;
+}
+
+.admin_calendar tr td {
+	border:1px solid #999;
+	empty-cells:show;
+	padding:5px;
+	text-align: center;
+}
+
+.admin_calendar_cell {
+	cursor:pointer;
+}
+
+.admin_calendar_cell_selected {
+	background-color: #F36969;
+}
+
+.admin_calendar_cell_disabled {
+	background-color: #efefef;
+	color: #bbb;
+}

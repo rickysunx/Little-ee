@@ -1,0 +1,2070 @@
+@CHARSET "UTF-8";
+
+body {
+	margin:0;
+	padding:0;
+	background-color: #F0F0F0;
+}
+
+ul,li {
+	margin:0;
+	padding:0;
+}
+
+.Index {
+	
+}
+
+.NextIcon {
+	height:10px;
+}
+
+.BigNextIcon {
+	height:15px;
+}
+
+.BigFont {
+	font-size:16px;
+	font-weight: normal;
+}
+
+.MiddleFont {
+	font-size:14px;
+	font-weight: normal;
+}
+
+.SmallFont {
+	font-size:12px;
+}
+
+.AddressBar {
+	background-color: #F1F0EE;
+	padding:8px 10px 10px 10px;
+}
+
+.AddressBar .Icon {
+	width:11px;
+	vertical-align: middle;
+	display:block;
+	float:left;
+}
+
+.AddressBar .Icon1 {
+	width:11px;
+	vertical-align: middle;
+	display: line-block;
+}
+
+.AddressBar .Next1 {
+	height:10px;
+	vertical-align: middle;
+	display: line-block;
+}
+
+.AddressBar .Text {
+	font-size: 14px;
+	vertical-align: middle;
+	display:block;
+	text-align: center;
+}
+
+.AddressBar .Next {
+	height:10px;
+	vertical-align: middle;
+	display:block;
+	float:right;
+	margin:-12px 5px 0 0;
+}
+
+
+
+.Banner {
+	width:100%;
+}
+
+.Banner img {
+	width:100%;
+	display:block;
+}
+
+.IndexNotice {
+	background-color: #FBE7E3;
+	width:100%;
+	filter:alpha(opacity=90);-moz-opacity:0.9;-khtml-opacity: 0.9;opacity: 0.9;
+	position: absolute;
+}
+
+.IndexNotice span {
+	text-align: center;
+	font-size:14px;
+	display:block;
+	padding:5px 0;
+}
+
+.IndexNotice img {
+	width:9px;
+	display:block;
+	float:right;
+	margin:-18px 10px 0 0;
+}
+
+.DinnerNav {
+	height:50px;
+	width:100%;
+	overflow: scroll;
+	background-color:#F1F0EE;
+	-webkit-overflow-scrolling: touch;
+}
+
+.DinnerNav::-webkit-scrollbar {
+	width: 0px;
+}
+
+.DinnerNav ul {
+	list-style: none;
+	margin:0;
+	padding:15px 10px 0 10px;
+	width:400px;
+	display:block;
+	overflow: hidden;
+}
+
+.DinnerNav li {
+	display: block;
+	width:70px;
+	padding:0 0 2px 0;
+	margin:0 10px;
+	text-align:center;
+	float:left;
+	font-size:16px;
+	color:#8C8984;
+	white-space:nowrap;
+	overflow: hidden;
+}
+
+.DinnerNav .Selected {
+	color:#FF7674;
+	border-bottom:1px solid #FF7674;
+}
+
+.ProductList {
+	-webkit-overflow-scrolling: touch;
+	-webkit-box-sizing : border-box;
+	background-color: #F1F0EE; 
+}
+
+.ProductList .Item {
+	border:1px solid #E0DED9;
+	margin:0 10px 20px 10px;
+	background-color: #fff;
+	position: relative;
+}
+
+.ProductList .Notice {
+	position: absolute;
+	background-color: #333;
+	left:0;
+	top:10px;
+	color:#fff;
+	padding:5px;
+	filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;
+}
+
+.ProductList .Image img {
+	display:block;
+	width:100%;
+}
+
+.ProductList .Info {
+	display:block;
+	height:60px;
+}
+
+.ProductList .Avatar {
+	float:left;
+	margin:10px;
+}
+
+.ProductList .Avatar img {
+	width:40px;
+	height:40px;
+	border-radius:50px;
+}
+
+.ProductList .Intro {
+	float:left;
+	margin:10px 0;
+}
+
+.ProductList .ShopName {
+	font-size:16px;
+	font-weight: bold;
+	color:#50504D;
+}
+
+.ProductList .ShopDesc {
+	font-size: 14px;
+	color: #8B8883;
+	margin:5px 0 0 0;
+}
+
+.ProductList .OrderCount {
+	float:right;
+	color:#5C5B56;
+	font-size: 12px;
+	margin:15px 10px 0 0;
+}
+
+.FooterNav {
+	height:50px;
+	background-color: #FAFAF9;
+	border-top: 1px solid #DDD7D6;
+	bottom:0;
+	position:fixed;
+	z-index:5;
+	width:100%;
+}
+
+.FooterNav div {
+	width:33.3%;
+	float:left;
+}
+
+.FooterNav div img {
+	display:block;
+	width:23px;
+	margin:8px auto 0 auto;
+}
+
+.Order {
+	display:none;
+}
+
+.OrderList {
+	background-color:#F0F0F0;
+	padding-top:10px;
+}
+
+.OrderList .Item {
+	background-color:#fff;
+	padding:10px;
+	margin-bottom:10px;
+	border-bottom: 1px solid #DCDCDC;
+}
+
+.OrderList .Row1 {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #DCDCDC;
+}
+
+.OrderList .Row1 span {
+	font-size:14px;
+	vertical-align: middle;
+	color:#898989;
+}
+
+.OrderList .Row1 img {
+	vertical-align: middle;
+}
+
+.OrderList .Row1 i {
+	font-size:12px;
+	vertical-align: middle;
+	font-style: normal;
+	display: block;
+	float: right;
+	margin-top:5px;
+	color:#898989;
+}
+
+.OrderList .Row2 {
+	margin-top:10px;
+	font-size:12px;
+}
+
+.OrderList .Row2 span {
+	color:#898989;
+}
+
+.OrderList .Row2 b {
+	color:#212121;
+}
+
+.OrderList .Row3 {
+	margin-top:10px;
+	font-size:12px;
+}
+
+.OrderList .Row3 span {
+	color:#898989;
+}
+
+.OrderList .Row3 b {
+	color:#212121;
+}
+
+.OrderList .Row3 i {
+	display:block;
+	float:right;
+	padding:3px 15px;
+	color:#FB5B5D;
+	border:1px solid #FB5B5D;
+	font-style: normal;
+	margin-top:-5px;
+}
+
+.Mine {
+	background-color: #f0f0f0;
+	height:400px;
+}
+
+.Mine .Login1 {
+	background-image: url("../images/mine_login_bg.png");
+	background-size:100%;
+	text-align: center;
+	padding:30px 0 10px 0;
+}
+
+.Mine .Login1 b {
+	display:block;
+	font-weight: normal;
+	border: 1px solid #fff;
+	color:#fff;
+	width:80px;
+	margin:0 auto;
+	padding:10px;
+	font-size:14px;
+}
+
+.Mine .Login1 img {
+	width:50px;
+	height:50px;
+	border-radius:50px;
+}
+
+.Mine .Login1 i {
+	display:block;
+	font-style: normal;
+	margin:10px 0 0 0;
+	color:#fff;
+	font-size:12px;
+}
+
+.Mine .Section {
+	background-color:#fff;
+	border-color: #E2E2E2;
+	border-style: solid;
+	border-width: 1px 0;
+	margin-top:10px;
+}
+
+.Mine .Section .Item {
+	padding:15px 0 0 10px;
+}
+
+.Mine .Section .Item .Icon {
+	width:16px;
+	display:block;
+	float:left;
+	margin:0 5px;
+	vertical-align: middle;
+}
+
+.Mine .Section .Item .Text1 {
+	margin-left:30px;
+	border-bottom: 1px solid #E7E7E7;
+	display:block;
+	font-size:14px;
+	padding:0 0 15px 0;
+}
+
+.Mine .Section .Item .Text2 {
+	margin-left:30px;
+	display:block;
+	font-size:14px;
+	padding:0 0 15px 0;
+}
+
+.Mine .Section .Item .Next {
+	height:10px;
+	display:block;
+	float:right;
+	margin:-30px 10px 0 0;
+}
+
+.Mine .Hotline {
+	padding:15px;
+	font-size:14px;
+	color:#FF595F;
+	background-color:#fff;
+	border-color: #E2E2E2;
+	border-style: solid;
+	border-width: 1px 0;
+	text-align: center;
+	margin-top:10px;
+}
+
+.BMapAutoAddress {
+	background-color: #F1F0EE;
+	z-index:10;
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+.AddressEditorAddress {
+	background-color: #fff;
+	padding:10px;
+	text-align: center;	
+}
+
+.BMapAutoAddress .Input {
+	background-color: #fff;
+	padding:10px;
+	text-align: center;
+}
+
+.BMapAutoAddress .InputBorder {
+	display:block;
+	background-color: #F1F0EE;
+	float:none;
+	padding:5px 0;
+	border-radius:5px;
+}
+
+.BMapAutoAddress .InputBorder input {
+	font-size: 12px;
+	color:#C5C2BC;
+	vertical-align: middle;
+}
+
+.BMapAutoAddress .Locator {
+	background-color: #FFE9E2;
+	height:15px;
+	padding:10px;
+	text-align: center;
+}
+
+.BMapAutoAddress .Locator div {
+	
+}
+
+.BMapAutoAddress .Locator img {
+	height:16px;
+}
+
+.BMapAutoAddress .Locator span {
+	font-size: 14px;
+	vertical-align: top;
+	color:#FF4749;
+}
+
+.PickAddress {
+	background-color: #F1F0EE;
+	z-index:10;
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+.PickAddress .Input {
+	background-color: #fff;
+	padding:10px;
+	text-align: center;
+}
+
+.PickAddress .InputBorder {
+	display:block;
+	background-color: #F1F0EE;
+	float:none;
+	padding:5px 0;
+	border-radius:5px;
+}
+
+.PickAddress .InputBorder img {
+	width:12px;
+	vertical-align: middle;
+}
+
+.PickAddress .InputBorder span {
+	font-size: 12px;
+	color:#C5C2BC;
+	vertical-align: middle;
+}
+
+.PickAddress .Locator {
+	background-color: #FFE9E2;
+	height:15px;
+	padding:10px;
+	text-align: center;
+}
+
+.PickAddress .Locator div {
+	
+}
+
+.PickAddress .Locator img {
+	height:16px;
+}
+
+.PickAddress .Locator span {
+	font-size: 14px;
+	vertical-align: top;
+	color:#FF4749;
+}
+
+
+.AddressList {
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.AddressList ul {
+	background-color: #fff;
+	padding:0 10px;
+}
+
+.AddressList li {
+	padding:10px 0;
+	border-bottom:1px solid #DCDCDC;
+}
+
+.AddressList b {
+	display:block;
+	font-size:17px;
+	font-weight: bold;
+	color: #4F4F4F;
+}
+
+.AddressList span {
+	diplay:block;
+	font-size:13px;
+	color: #898989;
+}
+
+.AddressList div {
+	diplay:block;
+	font-size:13px;
+	color: #898989;
+	text-align: center;
+	padding: 10px 0;
+	background-color: #fff;
+	border-bottom:1px solid #DCDCDC;
+}
+
+.AddressInput .Input {
+	background-color: #fff;
+	padding:10px;
+	text-align: center;
+	border-bottom: 1px solid #F0F0F0;
+}
+
+.AddressInput .Input div {
+	display:block;
+	background-color: #F1F0EE;
+	padding:5px 30px 5px 10px;
+	border-radius:5px;
+}
+
+.AddressInput .Input input {
+	display:block;
+	padding:5px 0;
+	border:0;
+	height:14px;
+	width:100%;
+	background: transparent;
+	color:#5B5B5B;
+	font-size:12px;
+}
+
+.AddressInput .Input img {
+	width:15px;
+	display:block;
+	float:right;
+	margin:-20px -20px 0 0;
+}
+
+.Shop {
+	font-size:12px;
+	background-color: #fff;
+}
+
+.Shop .Notice {
+	height:35px;
+	background-color: #464646;
+	border-top: 1px solid #DCDCDC;
+	position: fixed;
+	bottom:0;
+	width:100%;
+	z-index:5;
+	color:#fff;
+	font-size:16px;
+	text-align: center;
+	padding-top:15px;
+}
+
+.Shop .Cover {
+	position: relative;
+}
+
+.Shop .Cover img {
+	width:100%;
+	top:0;
+	left:0;
+	display:block;
+	position:absolute;
+}
+
+.Shop .ShopName {
+	text-align: center;
+	font-size:16px;
+	font-weight: bold;
+	margin-top:10px;
+	color:#545454;
+}
+
+.Shop .ShopName .DeliveryMethod {
+	display:inline-block;
+	padding:2px 5px;
+	margin-left:5px;
+	color:#fff;
+	background-color: #FF797A;
+	border-radius:3px;
+	font-size:10px;
+	vertical-align: top;
+}
+
+.Shop .ShopDesc {
+	text-align: center;
+	font-size:14px;
+	margin-top:5px;
+	color:#898989;
+}
+
+.Shop .OrderCount {
+	text-align: center;
+	font-size:14px;
+	margin-top:5px;
+	color:#898989;
+}
+
+.Shop .Avatar {
+	text-align: center;
+	margin-top:5px;
+}
+
+.Shop .Avatar img {
+	width:40px;
+	height:40px;
+	border-radius:50px;
+}
+
+.Shop .KeeperName {
+	text-align: center;
+	font-size:14px;
+	margin-top:5px;
+	color:#898989;
+}
+
+.Shop .CommentCount {
+	text-align: center;
+	font-size:14px;
+	border:1px solid #FF575C;
+	color:#FF575C;
+	margin:5px auto 0 auto;
+	width:60px;
+	padding:5px 10px;
+}
+
+.Shop .KeeperIntroContainer {
+	margin-top:10px;	
+	padding:0 10px 0 10px;
+}
+
+.Shop .KeeperIntro {
+	overflow: hidden;
+	font-size:14px;
+	color:#898989;
+	line-height:18px;
+}
+
+.Shop .KeeperIntroMoreContainer {
+	text-align: center;
+}
+
+.Shop .KeeperIntroMoreContainer img {
+	width:15px;
+}
+
+.Shop .ShopStory div {
+	font-size:14px;
+	color:#898989;
+	padding-bottom:10px;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.Shop .ShopAddress {
+	padding:20px 10px 20px 10px;
+}
+
+.Shop .ShopAddress .Address {
+	margin-right:20px;
+}
+
+.Shop .ShopAddress .Address img {
+	width:11px;
+	display:block;
+	float:left;
+}
+
+.Shop .ShopAddress .Address span {
+	display:block;
+	font-size:14px;
+	padding:0 20px 0 20px;
+	color:#898989;
+}
+
+.Shop .ShopAddress .Tel {
+	float:right;
+}
+
+.Shop .ShopAddress .Tel img {
+	float:right;
+	width:20px;
+	margin:-20px 5px 0 0;
+	padding-left:10px;
+	border-left:1px solid #DCDCDC;
+}
+
+.Shop .ProductTitle {
+	background-color:#F0F0F0;
+	padding:15px 0 15px 0;
+	text-align: center;
+}
+
+.Shop .ProductTitle img {
+	width:312px;
+	display:block;
+	margin:0 auto;
+}
+
+.SProductList {
+	background-color: #F0F0F0;
+}
+
+.SProductList .Item {
+	background-color: #fff;
+	height:120px;
+	margin:0 5px 10px 5px;
+	border:1px solid #E1E1E1;
+}
+
+.SProductList .Image {
+	float:left;
+}
+
+.SProductList .Image img {
+	width:140px;
+	height:120px;
+}
+
+.SProductList .Info {
+	margin-left:150px;
+	padding:10px 10px 10px 0;
+	height:120px;
+	position: relative;
+}
+
+.SProductList .Info .Name {
+	font-size:16px;
+	font-weight: bold;
+	color:#555555;
+}
+
+.SProductList .Info .Count {
+	font-size:14px;
+	color:#898989;
+}
+
+.SProductList .Info .PriceRow {
+	position: absolute;
+	bottom:30px;
+	width:100%;
+}
+
+.SProductList .Info .PriceRow .Price {
+	display:block;
+	color:#F8654F;
+	font-size:16px;
+}
+
+.SProductList .Info .PriceRow div {
+	display:block;
+	float:right;
+	margin:-25px 10px 0 0;
+}
+
+.SProductList .Info .PriceRow div img {
+	width:26px;
+	vertical-align: middle;
+}
+
+.SProductList .Info .PriceRow div span {
+	vertical-align: middle;
+	font-size:16px;
+}
+
+.Cart {
+	height:50px;
+	background-color: #fff;
+	border-top: 1px solid #DCDCDC;
+	position: fixed;
+	bottom:0;
+	width:100%;
+	z-index:5;
+}
+
+.Cart b {
+	display:block;
+	font-weight: normal;
+	font-size:18px;
+	float:right;
+	background-color: #FF787D;
+	color:#fff;
+	padding:14px 16px 18px 16px;
+}
+
+.Cart span {
+	display:block;
+	font-weight: normal;
+	font-size:18px;
+	float:right;
+	color:#FF797D;
+	padding:14px 16px 18px 16px;
+}
+
+.CreateOrder .Address {
+	color:#898989;
+	background-color: #FFFDED;
+	padding:15px;
+}
+
+.CreateOrder .Address .Text {
+	padding-right:15px;
+}
+
+.CreateOrder .Address .Contact {
+	margin-bottom:10px;
+}
+
+.CreateOrder .Address .Next {
+	float:right;
+	margin:-40px 0 0 0;
+}
+
+.CreateOrder .Section {
+	background-color: #fff;
+	padding:0 15px;
+	margin:5px 0;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.CreateOrder .Section .Item {
+	padding:15px 0;
+}
+
+.CreateOrder .Section .SepBorder {
+	border-bottom:1px solid #E4E4E4;
+}
+
+.CreateOrder .Section .Key{
+	font-size:15px;
+	vertical-align: middle;
+	color:#382F2F;
+}
+
+.CreateOrder .Section .Value {
+	font-size:14px;
+	font-weight: normal;
+	float:right;
+	display:block;
+	vertical-align: middle;
+	padding-right:8px;
+	margin-top:3px;
+	color:#C1C1C1;
+}
+
+#OrderMemoLabel {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.CreateOrder .Section select {
+	border:0;
+	appearance:none;
+	-moz-appearance:none; /* Firefox */
+	-webkit-appearance:none; /* Safari 和 Chrome */
+}
+
+.CreateOrder .Section .Next {
+	display:block;
+	float:right;
+	margin-top:4px;
+}
+
+.CreateOrder .Section .Check {
+	display:block;
+	float:right;
+	width:51px;
+	margin-top:-3px;
+}
+
+.CreateOrder .Section .PayItem {
+	padding:15px 0;
+	display:block;
+}
+
+.CreateOrder .Section .PayItem span {
+	display:block;
+	float:left;
+	margin:-22px 0 0 30px;
+}
+
+.CreateOrder .Section .PayItem .WeixinIcon {
+	width:26px;
+	display:block;
+}
+
+.CreateOrder .Section .PayItem .YesIcon {
+	width:22px;
+	float:right;
+	margin-top:-24px;
+}
+
+#OrderMemoLabel {
+	overflow: hidden;
+	height: 19px;
+	text-align: right;
+}
+
+.CreateOrder .Section .PayItem span {
+	vertical-align: middle;
+}
+
+.CreateOrder .Section .Coupon {
+	padding:15px 0;
+}
+
+.CreateOrder .Section .Coupon .Key{
+	
+}
+
+.CreateOrder .Section .Coupon .Tip{
+	display: inline-block;
+	padding: 2px 5px;
+	border-radius:5px;
+	background-color: #FF696F;
+	color:#fff;
+	font-size:12px;
+}
+
+.CreateOrder .Section .Coupon b {
+	display: block;
+	float:right;
+	color:#FF696F;
+	padding-right: 10px;
+	font-size:15px;
+	font-weight: normal;
+	margin-top: 2px;
+}
+
+.CreateOrder .PaySection {
+	font-size:15px;
+	background-color: #fff;
+	padding:5px 15px;
+	margin:5px 0;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.CreateOrder .PaySection .Item {
+	padding:5px 0;
+}
+
+.CreateOrder .PaySection b {
+	font-weight: normal;
+	float:right;
+	color: #898989;
+}
+
+.CreateOrder .PaySection .Seperator {
+	padding-top:5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.CreateOrder .Confirmation {
+	height:50px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
+	border-top: 1px solid #DBDBDB;
+}
+
+.CreateOrder .Confirmation .Button{
+	font-size:16px;
+	background-color: #FF7779;
+	padding:17px 20px;
+	float:right;
+	color:#fff;
+}
+
+.CreateOrder .Confirmation .Amount {
+	font-size:16px;
+	float:right;
+	color:#FF7779;
+	padding:17px 10px;
+}
+
+.CreateOrder .Confirmation .Discount{
+	font-size:14px;
+	float:right;
+	color: #898989;
+	margin-top:18px;
+	padding-right:10px;
+	border-right: 1px solid #898989;
+}
+
+.AddressChooser {
+	
+}
+
+.AddressChooser .AddButton {
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: #DCDCDC;
+	text-align: center;
+	padding:10px 0;
+	color: #FF6467;
+	background-color: #fff;
+	margin-top:10px;
+	font-size:15px;
+}
+
+.AddressChooser .AddressChooserList {
+	margin-top: 10px;
+	background-color: #fff;
+	padding:0 0 0 10px;
+	
+}
+
+.AddressChooser .Item {
+	padding:10px 0;
+	border-bottom: 1px solid #DCDCDC;
+}
+
+.AddressChooser .Address {
+	margin:0 30px 0 30px;
+}
+
+.AddressChooser .NoTick {
+	margin:0 30px 0 0;
+}
+
+.AddressChooser .Row1 {
+	color:#3E3E3E;
+	font-size:16px;
+	margin-bottom:5px;
+}
+
+.AddressChooser .Row2 {
+	color:#898989;
+	font-size:14px;
+	height:32px;
+}
+
+.AddressChooser .Tick {
+	width:22px;
+	float:left;
+	margin-top:15px;
+}
+
+.AddressChooser .Editor {
+	width:17px;
+	float:right;
+	margin:-38px 10px 0 0;
+}
+
+.AddressEditor {
+	font-size:15px;
+	margin-top:10px;
+}
+
+.AddressEditor .AddressEditorList {
+	background-color: #fff;
+	border-top: 1px solid #DEDEDE;
+}
+
+.AddressEditor .AddressEditorList .Item {
+	background-color: #fff;
+	border-bottom: 1px solid #DEDEDE;
+	padding:10px;
+}
+
+.AddressEditor .AddressEditorList .Item span {
+	color: #898989;
+	width:60px;
+	padding-right: 15px;
+}
+
+.AddressEditor .AddressEditorList .Item input {
+	color: #212121;
+	border:0;
+	font-size:15px;
+}
+
+.OkButton {
+	padding:0 15px;
+	margin-top:30px;
+}
+
+.OkButton span {
+	display:block;
+	border-radius:5px;
+	background-color: #FF6A6C;
+	color:#fff;
+	font-size: 20px;
+	text-align: center;
+	padding:10px;
+}
+
+.OrderMemo {
+	background-color: #fff;
+}
+
+.OrderMemo .Memo {
+	padding:10px 15px 5px 15px;
+}
+
+.OrderMemo .Memo textarea {
+	background-color: #FAFAFA;
+	border: 1px solid #DEDEDE;
+	padding:10px;
+	border-radius:5px;
+	height:120px;
+	font-size:15px;
+}
+
+.OrderMemo .Tags {
+	padding:5px 20px 0 20px;
+}
+
+.OrderMemo .Tags span {
+	padding:5px 15px;
+	border-radius:5px;
+	font-size:14px;
+	display: inline-block;
+	margin-right:5px;
+	margin-top:10px;
+}
+
+.OrderMemoSpanEnabled {
+	color: #FB5B5D;
+	border: 1px solid #FB5B5D;
+	background-color: #FFF;
+}
+
+.OrderMemoSpanDisabled {
+	color:#8D8D8D;
+	background-color: #F0F0F0;
+	border: 1px solid #D2D2D2;
+}
+
+.SelectCoupon .CouponList {
+	padding:0 15px;
+}
+
+.SelectCoupon .CouponList .Item {
+	height:80px;
+	border:1px solid #FF5A5F;
+	border-radius:5px;
+	background-color: #fff;
+	position: relative;
+	padding:10px;
+	margin-top:10px;
+}
+
+.SelectCoupon .CouponList .greyBorder {
+	border: 1px solid #C2C2C2;
+}
+
+.SelectCoupon .CouponList .Item .greyColor {
+	color: #C0C0C0;
+}
+
+.SelectCoupon .CouponList .Item .Col1 {
+	width:10px;
+	height:10px;
+	border-radius:10px;
+	border: 1px solid #FF5A5F;
+	z-index:1;
+	background-color: #F0F0F0;
+	position: absolute;
+	top:-6px;
+	left:100px;
+}
+
+.SelectCoupon .CouponList .Item .Col1_grey {
+	width:10px;
+	height:10px;
+	border-radius:10px;
+	border: 1px solid #C2C2C2;
+	z-index:1;
+	background-color: #F0F0F0;
+	position: absolute;
+	top:-6px;
+	left:100px;
+}
+
+.SelectCoupon .CouponList .Item .Col1a {
+	width:12px;
+	height:10px;
+	z-index:2;
+	background-color: #F0F0F0;
+	position: absolute;
+	top:-11px;
+	left:100px;
+}
+
+.SelectCoupon .CouponList .Item .Col2 {
+	width:10px;
+	height:10px;
+	border-radius:10px;
+	border: 1px solid #FF5A5F;
+	z-index:1;
+	background-color: #F0F0F0;
+	position: absolute;
+	top:94px;
+	left:100px;
+}
+
+.SelectCoupon .CouponList .Item .Col2_grey {
+	width:10px;
+	height:10px;
+	border-radius:10px;
+	border: 1px solid #C2C2C2;
+	z-index:1;
+	background-color: #F0F0F0;
+	position: absolute;
+	top:94px;
+	left:100px;
+}
+
+.SelectCoupon .CouponList .Item .Col2a {
+	width:12px;
+	height:10px;
+	z-index:2;
+	background-color: #F0F0F0;
+	position: absolute;
+	top:101px;
+	left:100px;
+}
+
+.SelectCoupon .CouponList .Item .Amount {
+	width:86px;
+	height:65px;
+	border-right: 1px dashed #FF5A5F;
+	float:left;
+	padding:15px 0 0 10px;
+}
+
+.SelectCoupon .CouponList .Item .Amount span{
+	font-size:15px;
+}
+
+.SelectCoupon .CouponList .Item .Amount b {
+	font-size:36px;
+}
+
+.SelectCoupon .CouponList .Item .Amount_grey {
+	width:86px;
+	height:65px;
+	border-right: 1px dashed #C2C2C2;
+	float:left;
+	padding:15px 0 0 10px;
+	color:#C0C0C0;
+}
+
+.SelectCoupon .CouponList .Item .Amount_grey span{
+	font-size:15px;
+}
+
+.SelectCoupon .CouponList .Item .Amount_grey b {
+	font-size:36px;
+}
+
+
+.SelectCoupon .CouponList .Item .Desc {
+	margin-left:130px;
+	padding-top:5px;
+}
+
+.SelectCoupon .CouponList .Item .Type {
+	color:#FF595F;
+	font-size:18px;
+	margin-bottom:5px;
+}
+
+.SelectCoupon .CouponList .Item .Info {
+	color:#898989;
+	font-size:12px;
+	margin-top:5px;
+}
+
+.SelectCoupon .CouponList .Item .CouponSelector {
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.SelectCoupon .CouponList .Item .CouponSelector img {
+	width:44px;
+}
+
+.SelectCoupon .CouponList .Item .Type_grey {
+	color:#C0C0C0;
+	font-size:18px;
+	margin-bottom:5px;
+}
+
+.SelectCoupon .CouponList .Item .Info_grey {
+	color:#C0C0C0;
+	font-size:12px;
+	margin-top:5px;
+}
+
+.SelectCoupon .CouponList .Link {
+	margin:10px 0 0 0;
+	text-align: center;
+	font-size:14px;
+	color:#898989;
+}
+
+.SelectCoupon .CouponList .PinkText {
+	color:#FF595F;
+}
+
+
+
+.Comment {
+	background-color: #fff;
+}
+
+.Comment .CommentList {
+	padding:0 15px;
+}
+
+.Comment .CommentList .Item {
+	padding:10px;
+	border-bottom: 1px solid #DCDCDC;
+}
+
+.Comment .CommentList .Item .Row1 {
+	
+}
+
+.Comment .CommentList .Item .Row1 span{
+	font-size:14px;
+	font-weight: normal;
+	color:#898989;
+}
+
+.Comment .CommentList .Item .Row1 i {
+	
+}
+
+.Comment .CommentList .Item .Row1 b {
+	float:right;
+	font-size:12px;
+	font-weight: normal;
+	color:#898989;
+	margin-bottom:10px;
+}
+
+.Comment .CommentList .Item .Row1 img {
+	width:13px;
+}
+
+.Comment .CommentList .Item .Row2 {
+	font-size:16px;
+	color:#4F4F4F;
+	margin-bottom:10px;
+}
+
+.Comment .CommentList .Item .Row3 {
+	font-size:12px;
+	color:#898989;
+	background-color: #F0F0F0;
+	padding:5px;
+	margin-bottom:10px;
+	position: relative;
+}
+
+.Comment .CommentList .Item .Row3 b {
+	border-style:solid;
+	border-width:0 5px 5px 5px;
+	border-color:#fff #fff #F0F0F0 #fff;
+	height:0;
+	width:0;
+	font-size:0;
+	display:block;
+	position: absolute;
+	top:-5px;
+}
+
+.Comment .CommentList .Item .Row4 {
+	font-size:13px;
+	color:#898989;
+}
+
+.OrderStatus {
+	
+}
+
+.OrderTab {
+	height: 62px;
+	background-color: #fff;
+	border-bottom: 1px solid #DCDCDC;
+	position: relative;
+}
+
+.OrderTab .Item {
+	width:50%;
+	float:left;
+	padding:20px 0;
+	font-size:16px;
+	text-align: center;
+	color:#898989;
+}
+
+.OrderTab .Selected {
+	color:#FF595F;
+	border-bottom:3px solid #FF585B;
+}
+
+.OrderTab .Seperator {
+	background-color: #DCDCDC;
+	width:1px;
+	height:30px;
+	position: absolute;
+	left:50%;
+	top:16px;
+}
+
+.OrderStatus .StatusList {
+	padding:20px 15px 0 10px;
+}
+
+.OrderStatus .StatusList .Item {
+	margin-bottom:20px;
+	position: relative;
+}
+
+.OrderStatus .StatusList .Item .Head {
+	left:8px;
+	top:8px;
+	position: absolute;
+}
+
+.OrderStatus .StatusList .Item .Round {
+	width:10px;
+	height:10px;
+	border:3px solid #FAADAE;
+	background-color: #FF696C;
+	border-radius:16px;
+}
+
+.OrderStatus .StatusList .Item .RoundGray {
+	width:10px;
+	height:10px;
+	border:3px solid #DCDCDC;
+	background-color: #B2B2B2;
+	border-radius:16px;
+}
+
+.OrderStatus .StatusList .Item .Line {
+	width:2px;
+	height:69px;
+	background-color: #DCDCDC;
+	margin-left:7px;
+}
+
+.OrderStatus .StatusList .Item .Content {
+	margin-left:40px;
+	background-color: #fff;
+	border-radius:5px;
+	padding:10px 20px;
+	position: relative;
+}
+
+.OrderStatus .StatusList .Item .Content .Row1 {
+	font-size: 16px;
+	color: #4F4F4F;
+}
+
+.OrderStatus .StatusList .Item .Content .Row2 {
+	color: #898989;
+	font-size:14px;
+	margin-top:5px;
+}
+
+.OrderStatus .StatusList .Item .Content .Time {
+	float:right;
+	font-size:12px;
+	color:#898989;
+	margin-top:-42px;
+}
+
+.OrderStatus .StatusList .Item .Content .Arrow {
+	border-style:solid;
+	border-width:8px 8px 8px 0;
+	border-color:#F0F0F0 #fff #F0F0F0 #F0F0F0;
+	height:0;
+	width:0;
+	font-size:0;
+	display:block;
+	position: absolute;
+	top:8px;
+	left:-8px;
+}
+
+.OrderDetailList .Section {
+	background-color: #fff;
+	border-top: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+	padding:0 15px;
+	margin-top:20px;
+}
+
+.OrderDetailList .Item {
+	border-top: 1px solid #E7E7E7;
+	padding:10px 0;
+}
+
+.OrderDetailList .Item1 {
+	border-bottom: 1px solid #E7E7E7;
+	padding:10px 0;
+}
+
+.OrderDetailList .NoBorder {
+	border:0;
+}
+
+.OrderDetailList .Pad {
+	padding-top:10px;
+}
+
+.OrderDetailList b {
+	display: block;
+	color:#898989;
+	font-size:14px;
+	margin-bottom:10px;
+	font-weight: normal;
+}
+
+.OrderDetailList .Item .ShopName {
+	color:#898989;
+	font-size: 15px;
+	display:inline;
+}
+
+.OrderDetailList .Item .Next {
+	height:10px;
+	display: inline-block;
+}
+
+.OrderDetailList span {
+	color:#212121;
+	display:block;
+	font-size:15px;
+}
+
+.OrderDetailList i {
+	display: block;
+	font-style: normal;
+	float:right;
+	margin-top:-20px;
+}
+
+
+.Login {
+}
+
+.Login .Row1 {
+	margin-top:10px;
+	background-color:#fff;
+	border-top:1px solid #DDDDDD;
+	border-bottom:1px solid #DDDDDD;
+	padding: 10px;
+}
+
+.Login .LoginPhone {
+	border:0;
+	font-size:14px;
+	height:22px;
+}
+
+.Login .LoginVCode {
+	border:0;
+	font-size:14px;
+	height:22px;
+}
+
+.Login .Row2 {
+	background-color:#fff;
+	border-bottom:1px solid #DDDDDD;
+	padding: 10px;
+}
+
+.Login .Row2 .Time{
+	float:right;
+	display:block;
+	background-color: #B2B2B2;
+	color:#fff;
+	padding:7px 0;
+	margin-top:-7px;
+	border-radius:5px;
+	width:100px;
+	text-align: center;
+}
+
+.Login .Row2 .Enabled {
+	background-color: #FF6A6C;
+}
+
+.Login .Disabled {
+	background-color: #B2B2B2;
+}
+
+.Feedback {
+	background-color: #fff;
+}
+
+.Feedback .Item {
+	padding:10px 15px 0 15px;
+}
+
+.Feedback .Item textarea {
+	height:100px;
+	background-color: #FAFAFA;
+	border: 1px solid #D2D2D2;
+	border-radius:5px;
+	padding:5px;
+	font-size:15px;
+}
+
+.Feedback .Item input {
+	height:20px;
+	background-color: #FAFAFA;
+	border: 1px solid #D2D2D2;
+	border-radius:5px;
+	padding:5px;
+	font-size:15px;
+}
+
+.OrderStatusBar {
+	height:50px;
+	background-color: #fff;
+	border-top: 1px solid #DDD7D6;
+	bottom:0;
+	position:fixed;
+	z-index:5;
+	width:100%;
+}
+
+.OrderStatusBar span {
+	display:block;
+	float:right;
+	padding:5px 20px;
+	border:1px solid #FF585B;
+	color:#FF585B;
+	margin:10px 10px 0 0;
+	font-size:14px;
+}
+
+.EditComment {
+	background-color: #fff;
+	padding:20px 0;
+}
+
+.EditComment .EC_Title {
+	text-align: center;
+	padding-bottom:10px;
+}
+
+.EditComment .EC_Title b {
+	display: inline-block;
+	height:5px;
+	border-top:1px solid #DCDCDC;
+	width:80px;
+	
+}
+
+.EditComment .EC_Title span {
+	display: inline-block;
+	font-size:14px;
+	color:#898989;
+}
+
+.EditComment .EC_Star {
+	text-align: center;
+}
+
+.EditComment .EC_Star img{
+	width:31px;
+}
+
+.EditComment .EC_Title2 {
+	text-align: center;
+	padding:10px 0;
+	color:#5B5B5B;
+}
+
+.EditComment .EC_Editor {
+	padding:10px 10px 0 10px;
+}
+
+.EditComment .EC_Editor textarea {
+	width:200px;
+	height:130px;
+	padding:10px;
+	border: 1px solid #D2D2D2;
+	background-color: #FAFAFA;
+	border-radius:5px;
+}
+
+.ShopMapText {
+	height: 60px;
+}
+
+.ShopMapText span {
+	font-size:14px;
+	font-weight: bold;
+	color:#464646;
+	display:block;
+	padding:10px 10px 0 10px;
+}
+
+.ShopMapText i {
+	display:block;
+	font-style: normal;
+	font-size:12px;
+	color:#8C8C8C;
+	display:block;
+	padding:5px 10px 0 10px;
+}
+
+.noDataList {
+	text-align: center;
+}
+
+.noDataList img {
+	height:100px;
+	padding-top:50px;
+}
+
+.CancelOrder {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.CancelOrderMask {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10;
+	background-color: #000;
+	filter:alpha(opacity=60); -moz-opacity:0.6; -khtml-opacity: 0.6; opacity: 0.6;
+}
+
+.CancelOrderContent {
+	z-index: 15;
+	position: fixed;
+	width:100%;
+	bottom:0;
+}
+
+.CancelOrderInner {
+	padding:10px;
+}
+
+.CancelOrderContent .Item {
+	font-size:14px;
+	padding:15px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.CancelOrderContent .Row1 {
+	border-radius:5px 5px 0 0;
+	border-bottom:1px solid #D2D2D6;
+}
+
+.CancelOrderContent .Row2 {
+	border-radius:0 0 5px 5px;
+}
+
+.CancelOrderContent .Row3 {
+	margin-top:5px;
+	border-radius:5px;
+}
+
+
+input:focus{
+	outline:none;
+}
+.list_con{
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #dcdcdc;
+	margin-top: 13px;
+	background-color: #fff;
+}
+
+.list_item{
+	border-top: 1px solid #dcdcdc;
+	list-style: none;
+	height: 44px;
+	line-height: 44px;
+	padding:0 15px;
+	box-sizing:border-box;
+	color:#8a8a8a;
+	
+}
+.list_item span{
+	display: inline-block;
+	width: 60px;
+	color: #8a8a8a;
+	padding-right: 15px;
+}
+.list_item input{
+	border: none;
+	padding-left: 5px;
+	text-align: left;
+	width: 55%;
+	font-size: 15px;
+}
+.list_item .location_add{
+	display:inline-block;
+	text-align: left;
+	width: 55%;
+	padding:0 5px 0 15px;
+	line-height: 20px;
+	color:#8a8a8a;
+	font-size:15px;
+	text-decoration:none;
+}
+.location_red{
+	position: relative;
+	height:auto;
+
+}
+.location_red .add_input{
+	display:inline-block;
+	width:55%;
+
+}
+
+.location_red i{
+	display: block;
+	position: absolute;
+	left: 95px;
+	top: 14px;
+	width: 11px;
+	height: 14px;
+	background: url(../images/map_location_red.png) no-repeat;
+	background-size: 11px auto;
+
+}
+.save_btn{
+	margin: 25px auto auto auto ;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	background-color: #ff6a6f;
+	border-radius: 3px;
+	-wekit-border-radius:3px;
+	-moz-border-radius:3px;
+	text-align: center;
+	width: 92%;
+	font-size: 20px;
+}
+
+
+#addressMap{
+	background:#fff;
+}
+.map_nav{
+	/*position: relative;*/
+	width: 100%;
+	/*background: #fff;*/
+	/*border-bottom: 1px solid #dcdcdc;*/
+	text-align: center;
+	position: relative;
+}
+.map_nav input{
+	border: none;
+	width: 92%;
+	margin: 12px auto;
+	background-color: #f0f0f0;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 36px;
+	font-size: 13px;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	box-sizing:border-box;
+}
+.map_nav input:focus{
+	outline: none;
+}
+.map_nav .map_nav_icon{
+	position: absolute;
+	left: 30px;
+	top: 19px;
+	display: block;
+	width: 13px;
+	height: 13px;
+	background: url(../images/map_search.png) no-repeat;
+	background-size: 13px auto;
+}
+.map{
+	border-top: 1px solid #dcdcdc;
+	height: 304px;
+}
+
+.map_nav_center .map_nav_con input{
+	width: 90%;
+	border: 0;
+	background: #f0f0f0;
+	font-size: 20px;
+	color: #c1c1c1;
+}
+
+.address_list ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.address_list ul li{
+	padding:15px 0;
+	margin: 0 15px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.address_list ul li:last-child{
+	border: none;
+}
+.address_list ul li span{
+	display: inline-block;
+	padding-left: 3px;
+}
+.address_list ul li .add_icon{
+	width: 11px;
+	height: 14px;
+	background: url(../images/map_location.png) no-repeat;
+	background-size: 11px auto;
+}
+.address_list ul li .add_title{
+	font-size: 17px;
+	color: #454545;
+}
+.address_list ul li .add_detail{
+	padding-left: 16px;
+	font-size: 13px;
+	color: #8a8a8a;
+}
+
+/*1024活动 */
+.activity_1024{
+	width: 100%;
+	padding-bottom:15px;
+	background: #fff000;
+}
+.activity_1024 img{
+	width: 100%;
+}
+.active_con{
+	width: 100%;
+}
+.active_con span{
+	display: block;
+	width: 65%;
+	height: 50px;
+	margin: 17px auto 20px;
+	line-height: 50px;
+	text-align: center;
+	background: #ff5a5f;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.active_con h1{
+	font-size: 16px;
+	color: #454545;
+	font-weight: bold;
+	padding: 0 5%;
+}
+.active_con p{
+	margin:0;
+	padding: 3px 5%;
+	color: #454545;
+	font-size: 16px;
+	font-weight: 300;
+	text-indent: 2em;
+}
+.active_con .active_detail{
+	line-height: 25px;
+	TEXT-JUSTIFY: inter-ideograph;  
+	TEXT-ALIGN: justify;
+}
+/* 1024活动支付 */
+.pay_success{
+	position:fixed;
+	width: 100%;
+	height: 100%;
+	background: #e5e5e5;
+	text-align: center;
+	vertical-align: middle;
+}
+.paysuccess_bg{
+	width: 38px;
+	height: 38px;
+	margin: 40% auto 0;
+}
+.pay_success p{
+	width: 100%;
+	font-weight: bold;
+}
+.pay_word1{
+	font-size: 16px;
+	color: #454545;
+}
+.pay_word2{
+	font-size: 18px;
+	color: #ff5a5f;
+}

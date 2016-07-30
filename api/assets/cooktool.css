@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+body{
+	background: #f0f0f0;
+}
+.cooktool{
+	width: 100%;
+	padding-bottom: 10px;
+	background: #fff;
+	border-top: 1px solid #bdbdbd;
+}
+.cooktool_con{
+	width: 92%;
+	margin: 0 auto;
+}
+.cooktool_con h1{
+	font-size: 15px;
+	color: #454545;
+	margin-top: 26px;
+}
+.cooktool_con .tool_number{
+	margin: 15px auto 0;
+}
+.cooktool_con span{
+	display: inline-block;
+	width: 28%;
+	height: 56px;
+	line-height: 56px;
+	border-radius: 4px;
+	border:1px solid #fe696d;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	text-align: center;
+}
+.choosetool{
+	background: #fe696d;
+	color: #fff;
+	font-weight: bold;
+}
+.tool{
+	margin-left: 3%;
+	color: #fe696d;
+	font-weight: bold;
+}
+.cooktool_con p{
+	width: 98%;
+	font-size: 11px;
+	line-height: 20px;
+	color: #5d5d5d;
+	text-align:justify;
+	text-justify:inter-ideograph;
+}
+.greenbar{
+	height: 38px;
+	background: #f0f0f0;
+	border:1px solid #c8c7cc;
+}
+.cook_inf{
+	width: 100%;
+	padding-bottom: 10px;
+	background: #f0f0f0;
+}
+.cook_inf .list_con{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+.cook_inf .list_item{
+	border-bottom: 1px solid #dcdcdc;
+	list-style: none;
+	height: 44px;
+	line-height: 44px;
+	padding:0 15px;
+	font-size: 15px;
+	box-sizing:border-box;
+
+}
+.cook_inf .list_item span{
+	display: inline-block;
+	width: 60px;
+	color: #454545;
+	padding-right: 15px;
+}
+.cook_inf .list_item input{
+	border: none;
+	padding-left: 5px;
+	text-align: left;
+	width: 55%;
+	color: #b3b3b3;
+}
+.cook_inf h2,.cook_inf p{
+	font-size: 11px;
+	color: #fe696d;
+
+}
+.cook_inf h2{
+	margin-left: 15px;
+	font-weight: normal;
+}
+.cook_inf p{
+	margin: 0 25px;
+	line-height: 20px;
+}
+.cook_inf .save_btn{
+	display: block;
+	margin: 20px auto 0;
+	height: 48px;
+	line-height: 48px;
+	color: #fff;
+	border: none;
+	background-color: #ff6a6f;
+	border-radius: 4px;
+	-wekit-border-radius:4px;
+	-moz-border-radius:4px;
+	text-align: center;
+	width: 86%;
+	font-size: 20px;
+}
+:focus{
+	outline: none;
+}

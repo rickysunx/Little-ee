@@ -1,0 +1,264 @@
+@CHARSET "UTF-8";
+
+body,ul,li {
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+ul,li {
+	display: block;
+}
+
+.location {
+	background-color: #F1F0EE;
+	width:100%;
+	height:45px;
+}
+
+.location_icon {
+	height:14px;
+	display:block;
+	float:left;
+	margin:15px 5px 0 15px;
+}
+
+.location_text {
+	height:18px;
+	font-size:13px;
+	display:block;
+	float:left;
+	margin:16px 5px 0 0;
+	color:#555555;
+	overflow: hidden;
+	white-space:nowrap;
+}
+
+.location_next {
+	height:10px;
+	display:block;
+	float:right;
+	margin:17px 10px 0 0;
+}
+
+.banner {
+}
+
+.banner img {
+	display:block;
+}
+
+.dinnerNav {
+	height:50px;
+	width:100%;
+	overflow: scroll;
+	background-color:#F1F0EE;
+}
+
+
+.dinnerNav::-webkit-scrollbar {
+	width: 0px;
+}
+
+
+.dinnerNav ul {
+	list-style: none;
+	margin:0;
+	padding:15px 10px 0 10px;
+	width:400px;
+	display:block;
+}
+
+.dinnerNav li {
+	display: block;
+	width:70px;
+	padding:0 0 2px 0;
+	margin:0 10px;
+	text-align:center;
+	float:left;
+	font-size:16px;
+	color:#8C8984;
+	white-space:nowrap;
+	overflow: hidden;
+}
+
+.dinnerNav .selected {
+	color:#FF7674;
+	border-bottom:1px solid #FF7674;
+}
+
+.avatarImage {
+	width:40px;
+	height:40px;
+	border-radius:50px;
+}
+
+.product_list {
+	height:350px;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	-webkit-box-sizing : border-box;
+	background-color: #F1F0EE; 
+}
+
+.product_list_item {
+	border:1px solid #E0DED9;
+	margin:0 10px 20px 10px;
+}
+
+.product_list_item_image {
+	display:block;
+}
+
+.product_list_item_info {
+	display:block;
+	height:60px;
+}
+
+.product_list_item_image img {
+	display:block;
+}
+
+.product_list_item_avatar {
+	float:left;
+	margin:10px;
+}
+
+.product_list_item_intro {
+	float:left;
+	margin:10px 0;
+}
+
+.product_list_item_shop_name {
+	font-size:16px;
+	font-weight: bold;
+	color:#50504D;
+}
+
+.product_list_item_shop_intro {
+	font-size: 14px;
+	color: #8B8883;
+	margin:5px 0 0 0;
+}
+
+.product_list_item_order_count {
+	float:right;
+	color:#5C5B56;
+	font-size: 12px;
+	margin:15px 10px 0 0;
+}
+
+.footerNav {
+	height:50px;
+	background-color: #FAFAF9;
+	border-top: 1px solid #DDD7D6;
+	bottom:0;
+	position:fixed;
+}
+
+.footerNav div {
+	width:33.3%;
+	float:left;
+	
+}
+
+.footerNav div img {
+	display:block;
+	width:23px;
+	margin:5px auto 0 auto;
+}
+
+#pickAddress {
+	background-color: #F1F0EE;
+	z-index:10;
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+#pickAddress_input {
+	background-color: #fff;
+	padding:10px;
+	text-align: center;
+}
+
+#pickAddress_input_border {
+	display:block;
+	background-color: #F1F0EE;
+	float:none;
+	padding:5px 0;
+	border-radius:5px;
+}
+
+#pickAddress_input_border img {
+	width:12px;
+	vertical-align: middle;
+}
+
+#pickAddress_input_border span {
+	font-size: 12px;
+	color:#C5C2BC;
+	vertical-align: middle;
+}
+
+#pickAddress_locator {
+	background-color: #FFE9E2;
+	height:15px;
+	padding:10px;
+	text-align: center;
+}
+
+#pickAddress_locator_container {
+	
+}
+
+#pickAddress_locator_container img {
+	height:16px;
+}
+
+#pickAddress_locator_container span {
+	font-size: 14px;
+	vertical-align: top;
+	color:#FF4749;
+}
+
+
+.pickAddress_list {
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.pickAddress_list ul {
+	background-color: #fff;
+	padding:0 10px;
+}
+
+.pickAddress_list li {
+	padding:10px 0;
+	border-bottom:1px solid #DCDCDC;
+}
+
+.pickAddress_list b {
+	display:block;
+	font-size:17px;
+	font-weight: bold;
+	color: #4F4F4F;
+}
+
+.pickAddress_list span {
+	diplay:block;
+	font-size:13px;
+	color: #898989;
+}
+
+.pickAddress_list div {
+	diplay:block;
+	font-size:13px;
+	color: #898989;
+	text-align: center;
+	padding: 10px 0;
+	background-color: #fff;
+	border-bottom:1px solid #DCDCDC;
+}
+

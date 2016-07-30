@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+body,ul,li,div {
+	padding:0;
+	margin:0;
+}
+
+ul,li {
+	list-style-type: none;
+}
+
+.HelpIndex {
+	padding:10px;
+}
+
+.HelpIndex li {
+	border:1px solid #DCDCDC;
+	border-raduis:5px;
+	padding:20px;
+	margin:0 0 10px 0;
+	border-radius:5px;
+}
+
+.HelpIndex img {
+	float:right;
+	width:7px;
+	margin-top:3px;
+}
+
+.agreement {
+	background-color: #F0F0F0;
+	font-size:16px;
+}
+
+.agreement h1 {
+	margin:0;
+	padding:10px 15px;
+	font-size:16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.agreement p {
+	margin:0;
+	padding:10px 15px;
+}
+
+.agreement b {
+	font-size: 16px;
+	font-weight: bold;
+}
